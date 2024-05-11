@@ -1,1 +1,1 @@
-from textSummarizer.components import data_ingestion
+from textSummarizer.components import *

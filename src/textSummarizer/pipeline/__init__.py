@@ -1,1 +1,1 @@
-from textSummarizer.pipeline import step_01_data_ingestion
+from textSummarizer.pipeline import *
