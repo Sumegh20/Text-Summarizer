@@ -1,7 +1,5 @@
 from textSummarizer.config.configuration import ConfigurationManager
 from textSummarizer.components.data_ingestion import DataIngestion
-from textSummarizer.logger import logging
-
 
 class DataIngestionPipeline:
     def __init__(self):
