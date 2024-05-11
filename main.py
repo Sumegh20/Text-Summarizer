@@ -54,7 +54,7 @@ STAGE_NAME = "Model Evaluation stage"
 try:
    logging.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
    model_evaluation = ModelEvaluationPipeline()
-   model_trainer.main()
+   model_evaluation.main()
    logging.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
    logging.exception(e)
